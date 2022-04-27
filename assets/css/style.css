@@ -1,0 +1,275 @@
+ body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* nav */
+.nav{
+    background-color: white;
+    color: black;
+    display: flex;
+    box-shadow: 2px 1px 5px;
+    margin-bottom: .4rem;
+}
+
+.nav .nav-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.nav .nav-links{
+    flex-grow: 2;
+    text-align: right;
+}
+.nav .nav-links ul{
+    list-style: none;
+}
+.nav .nav-links ul li{
+    display: inline;
+    padding: 1rem;
+}
+.nav .nav-links ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.nav .nav-links ul li a:hover{
+    color: brown;
+    font-weight: bolder;
+}
+
+/* banner */
+.banner {
+    background-image: url(/assets/img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.banner .ban-cont{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
+
+ .banner .ban-cont i{
+    font-size: 2rem;
+} 
+.banner .ban-cont h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: -23px;
+}
+ .banner .ban-cont p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.banner .ban-cont button{
+    background-color: brown;
+    color: white;
+    padding: .5rem 2rem;
+    letter-spacing: 5px;
+    border: 0;
+    text-transform: uppercase;
+}
+/* statement of faith */
+.sof{
+    color: black;
+    text-align: center;
+}
+.sof h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.sof .sofs{
+    display: flex;
+}
+.sof .sofs .sof-1{
+    margin: .3rem;
+}
+.sof .sofs .sof-1 i{
+    color: brown;
+    font-size: 1.5rem;
+}
+.sof .sofs .sof-1 h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* welcome to church  */
+/* row one */
+.wtc-one{
+    background-color: brown;
+    color: white;
+    display: flex;
+    padding: 2rem 0;
+}
+.wtc-one .wtc-1{
+    flex-grow: 1;
+    text-transform: capitalize;
+}
+.wtc-one .wtc-1 button{
+   background:transparent;
+   padding: 1rem 2rem;
+   border: 1px solid white;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+/* row two */
+.wtc-two{
+    display: flex;
+    background: lightgray;
+    padding: 3rem;
+}
+.wtc-two .wtc-2, .wtc-two .wtc-22{
+ flex-grow: 1;
+ margin: 2rem;
+}
+.wtc-two .wtc-2{
+    background: white;
+    padding: 2rem 1rem;
+}
+.wtc-two .wtc-2 i{
+    color: brown;
+}
+.wtc-two .wtc-2 h3{
+    text-transform: capitalize;
+}
+.wtc-two .wtc-2 p{
+    text-transform: capitalize;
+}
+.wtc-two .wtc-2 p>span{
+    color: brown;
+}
+
+.wtc-two .wtc-22{
+    background-color: brown;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.wtc-two .wtc-22 .wtc-222{
+    flex-grow: 1;
+    margin: 0rem 2rem;
+    border-left: 1px solid white;
+    padding: .5rem;
+}
+.wtc-two .wtc-22 .wtc-222 p{
+    font-size: 2.5rem;
+    line-height: 0;
+}
+.wtc-two .wtc-22 .wtc-222 span{
+    text-transform: capitalize;
+}
+
+/* event */
+.event{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#event h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+.event .event-1{
+    width: 30%;
+}
+.event .event-1 img{
+    width: 400px;
+}
+.event .event-1 h3{
+    text-transform: capitalize;
+}
+.event .event-1 i{
+    color: brown;
+}
+.event .event-1 p{
+    text-transform: capitalize;
+}
+.event .event-1 p>span{
+    color: brown;
+}
+/* footer */
+
+footer{
+    background: lightgray;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+footer .wrap{
+    display: flex;
+}
+footer .wrap .wrap-1{
+    flex-grow: 1;
+}
+footer .wrap .img-cont{
+    text-align: center;
+    align-self: center;
+}
+footer .wrap .img-cont p{
+    color: brown;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+footer .wrap .wrap-1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+footer .wrap .os{
+    color: brown;
+    text-transform: capitalize;
+}
+footer .wrap .os p{
+    text-align: center;
+    font-size: 2rem;
+}
+footer .wrap .os ul{
+    list-style: none;
+}
+footer .wrap .mail{
+    text-align: center;
+    align-self: center;
+    color: brown;
+}
+footer .wrap .mail input{
+    width: 70%;
+    height: 40px;
+    border: 1px solid brown;
+    border-radius: 8px;
+}
+footer .wrap .mail button{
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    background: transparent;
+}
+
+footer .copy{
+    background-color: brown;
+    color: white;
+    padding: 3rem 0rem;
+}
+footer .copy i{
+    float: right;
+    background-color: white;
+    color: brown;
+    border-radius: 50px;
+    padding: 1rem;
+}
